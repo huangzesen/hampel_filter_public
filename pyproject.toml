@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hampel_filter"
+version = "0.0.1"
+authors = [
+  { name="Zesen Huang", email="huangzs1997@gmail.com" },
+]
+description = "Calculate and visualize a scalogram from any time series"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "numba"
+]
+
+[project.urls]
+Homepage = "https://github.com/huangzesen/Time-Series-Scalogram-Public"
+Issues = "https://github.com/huangzesen/Time-Series-Scalogram-Public/issues"
