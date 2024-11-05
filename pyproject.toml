@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "hampel_filter"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="Zesen Huang", email="huangzs1997@gmail.com" },
 ]
-description = "Calculate and visualize a scalogram from any time series"
+description = "Hampel Filter with numba JIT parallelization"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10, <3.13"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",

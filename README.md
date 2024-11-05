@@ -10,6 +10,12 @@ Make sure to have `Numba`, `NumPy`, and `Pandas` installed:
 pip install numba numpy pandas
 ```
 
+and then you can install the package
+
+```bash
+pip install hampel_filter
+```
+
 ## Usage
 
 This package contains functions for outlier detection in time-series or sequence data using the Hampel filter. The main function `hampel()` identifies outliers by calculating the median and median absolute deviation (MAD) within a specified window size and compares it to a threshold to detect outliers.
