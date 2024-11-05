@@ -23,5 +23,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/huangzesen/Time-Series-Scalogram-Public"
-Issues = "https://github.com/huangzesen/Time-Series-Scalogram-Public/issues"
+Homepage = "https://github.com/huangzesen/hampel_filter_public"
+Issues = "https://github.com/huangzesen/hampel_filter_public/issues"
